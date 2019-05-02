@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>analog-clock</title>
+  <style>
+    body{
+      background: #ddd;
+    }
+    #myCanvas{
+      display: none;
+    }
+    #snapshotImageElement{
+      position: absolute;
+      left: 10px;
+      margin:20px;
+      border:thin solid #aaa;
+    }
+  </style>
+</head>
+<body>
+  <img id="snapshotImageElement"/>
+  <canvas width="400" height="400" id="myCanvas">
+    canvas not supported
+  </canvas>
+  <script src="analog-clock.js"></script>
+</body>
+</html>
